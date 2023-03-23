@@ -13,9 +13,9 @@ Resources:
         ]  
 
 
-Resources2:
-  S3Bucket:
-    Type: AWS::S3::Bucket
-    DeletionPolicy: "Retain"
-    Properties:
-      BucketName: "eshaniCFT-s3-bucket"
+Resources:
+  S3Bucket:
+    Type: "AWS::S3::Bucket"
+    DeletionPolicy: "Retain"
+    Properties:
+      BucketName: "eshani-ec2-cftbucket"
