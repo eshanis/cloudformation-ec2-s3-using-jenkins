@@ -12,8 +12,6 @@ Resources:
             {"Key" : "Name", "Value" : "eshani-cloudformation-test-s3bucket"},
         ]  
 
-
-Resources:
   S3Bucket:
     Type: "AWS::S3::Bucket"
     DeletionPolicy: "Retain"
