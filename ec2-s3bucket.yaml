@@ -2,7 +2,7 @@ AWSTemplateFormatVersion: 2010-09-09
 Description: Part 1 - Build a webapp stack with CloudFormation 
 
 Resources:
-  WebAppInstance101:
+  WebAppInstance:
     Type: AWS::EC2::Instance
     Properties:
       ImageId: ami-005f9685cb30f234b
@@ -10,8 +10,10 @@ Resources:
       InstanceType: t2.micro
       "Tags" : [
             {"Key" : "Name", "Value" : "eshani-cloudformation-test-s3bucket"},
-        ]        
-Resources:
+        ]  
+
+
+Resources2:
   S3Bucket:
     Type: AWS::S3::Bucket
     DeletionPolicy: "Retain"
