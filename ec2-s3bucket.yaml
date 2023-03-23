@@ -2,7 +2,7 @@ AWSTemplateFormatVersion: 2010-09-09
 Description: Part 1 - Build a webapp stack with CloudFormation 
 
 Resources:
-  WebAppInstance2:
+  WebAppInstance202:
     Type: AWS::EC2::Instance
     Properties:
       ImageId: ami-005f9685cb30f234b
@@ -18,4 +18,4 @@ Resources:
     Type: "AWS::S3::Bucket"
     DeletionPolicy: "Retain"
     Properties:
-      BucketName: "eshani-ec2-cftbucket2"
+      BucketName: "eshani-ec2-cftbucket202"
